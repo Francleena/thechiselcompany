@@ -330,7 +330,23 @@ nav a {
 
 .contact-info {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 30px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 6px;
+}
+
+.contact-info a:hover {
+    color: #eaeaea;
+    text-decoration: underline;
 }
 
 .map-container {
@@ -347,19 +363,6 @@ nav a {
     touch-action: pan-x pan-y;
 }
 
-/* Prevent fade-in animation from blocking iframe on mobile */
 .fade-in .map-container {
     transform: none !important;
-}
-
-.contact-info a {
-    color: #000;
-    text-decoration: none;
-    font-weight: 500;
-    margin: 0 6px;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-    color: #444;
 }
